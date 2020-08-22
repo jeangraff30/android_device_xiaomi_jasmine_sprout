@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -47,10 +48,6 @@ PRODUCT_PACKAGES += \
 
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
-
-# HW crypto
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
 # Media
 PRODUCT_COPY_FILES += \

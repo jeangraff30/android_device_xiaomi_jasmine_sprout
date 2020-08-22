@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,9 +31,6 @@ DEVICE_PATH := device/xiaomi/jasmine_sprout
 ENABLE_AB := true
 AB_OTA_UPDATER := true
 
-# Crypto
-TARGET_HW_DISK_ENCRYPTION := true
-
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
@@ -42,9 +40,6 @@ TARGET_KERNEL_CONFIG := wayne_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
-# Recovery
-TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/twrp/ramdisk-recovery.cpio
 
 # Platform
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660

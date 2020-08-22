@@ -1,0 +1,18 @@
+[
+  {
+    "repository":  "PixelExperience-Devices/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "revision":    "ten"
+  },
+  {
+    "repository":  "PixelExperience-Devices/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "revision":    "ten"
+  },
+  {
+    "remote":      "gh",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "revision":    "master"
+  }
+]
